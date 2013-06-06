@@ -140,6 +140,7 @@ return
 	  ; }
    ; }
 ; return
+
 ; 设置显示天气延时
 setDelay:
 InputBox, new_var, 请输入显示延时, , , 240, 100
@@ -323,7 +324,7 @@ else
 	ToolTip
 	Return
 }
-
+return
 
 ; 设置City ID
 setCityID:
